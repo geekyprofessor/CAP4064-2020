@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div w3-include-html="menu.html"></div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h2>Healthy Mac N Cheese</h2> <!--Your Title Goes Here-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h3>Ingredients</h3>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="col-md-1"></div>
+            <div class="col-md-5"><!--Ingredients-->
+                <ul>
+                    <li>3 cups whole wheat elbow macaroni, uncooked</li>
+                    <li>3 cups vegetable or chicken broth, low sodium</li>
+                    <li>1 cup whole milk</li>
+                    <li>2 tbsp butter, salted</li>
+                    <li>1/4 tsp garlic powder</li>
+                    <li>1/4 tsp mustard (condiment)</li>
+                    <li>3/4 tsp salt</li>
+                    <li>Ground black pepper, to taste</li>
+                    <li>1 cup marble cheese, shredded</li>
+                    <li>1/4 cup Parmesan cheese, shredded</li>
+                </ul>
+            </div> 
+            <div class="col-md-6"><!--Image of finished dish-->
+                <img src="../Images/Mac & Cheese 13.jpg" width="70%" height="70%" />
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h3>Steps</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-6"> 
+                    #1 - Measure out all your ingredents except the elbow noodles and cheese and put them in the pot: <br/>
+                    Measure out your broth, milk, butter, garlic powder, mustard, salt, ground black pepper. Once done bring them to a boil<br/>
+            </div>
+            <div class="col-md-5">
+                <img src="../Images/Mac & Cheese 6.jpg" width="25%" />
+                <img src="../Images/Mac & Cheese 4.jpg" width="25%" />
+                <img src="../Images/Mac & Cheese 3.jpg" width="25%" />
+                <img src="../Images/Mac & Cheese 2.jpg" width="45%" />
+                <img src="../Images/Mac & Cheese 9.jpg" width="45%" />
+            </div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-5"> 
+                    #2 - Measure out the elbow noodles and add to the pot:
+                    <br/>
+			Add elbow macaroni and cook for 8-10 minutes, stirring every few minutes to prevent sticking.
+                    <br/>
+                     Cook until al dente or desired firmness and adding more milk or broth if you wish.
+			</div>
+            <div class="col-md-5">
+                <img src="../Images/Mac & Cheese 1.jpg" width="50%" />
+		<img src="../Images/Mac & Cheese 12.jpg" width="50%" />
+            </div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-6"> 
+                    #3 - Measure out cheese and add to cooked noodles:<br/>
+                    Turn off heat. Add marble cheese and Parmesan cheese in portions and stir between each until melted.
+                    <br/>
+            </div>
+            <div class="col-md-5">
+                <img src="../Images/Mac & Cheese 11.jpg" width="50%" />
+            </div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-6"> 
+                    #4 - Serve:<br/>
+                    Serve immediately as mac and cheese tastes best fresh.
+                    <br/>
+            </div>
+            <div class="col-md-5">
+                <img src="../Images/Mac & Cheese 13.jpg" width="50%" height="40%" />
+            </div>
+        </div>
+        <script>
+            $('[w3-include-html]').each(function(){
+               var $this = $(this);
+               $this.load($this.attr('w3-include-html')); 
+            });
+        </script>
+    </body>
+</html>

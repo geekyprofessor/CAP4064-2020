@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div w3-include-html="menu.html"></div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h2>Shrimp Tacos</h2> <!--Your Title Goes Here-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h3>Ingredients</h3>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="col-md-1"></div>
+            <div class="col-md-5"><!--Ingredients-->
+                <p><i>Shrimp Tacos:</i></p>
+                <ul>
+                    <li>1 lb raw shrimp, peeled & deveined</li>
+                    <li>1 tbsp taco seasoning</li>
+                    <li>1 tsp garlic powder</li>
+                    <li>14 oz bag slaw or 3 cups shredded cabbage</li>
+                    <li>1/2 small bunch cilantro, finely chopped</li>
+                    <li>Avocado oil, for frying</li>
+                    <li>Ground black pepper, to taste</li>
+                    <li>9 corn tortillas</li>
+                </ul>
+                <p><i>Shrimp Taco Sauce:</i></p>
+                <ul>
+                    <li>1/2 cup plain yogurt, 2%+ fat</li>
+                    <li>1/4 cup mayo (I use avocado oil)</li>
+                    <li>1 lime, juice of</li>
+                    <li>/2 tsp taco seasoning</li>
+                    <li>1/4 tsp salt</li>
+                    <li>Pinch of cayenne</li>
+                    <li><Ground black pepper, to taste/li>
+                </ul>
+            </div> 
+            <div class="col-md-6"><!--Image of finished dish-->
+                <img src="../Images/Shrmip-Taco-Final1.jpeg" width="80%" />
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h3>Steps</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <p><i>Preparing the shrimp tacos</i></p>
+            </div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-6"> 
+                    #1 - In a medium bowl, add shrimp, 1 tbsp taco seasoning, garlic powder and pepper. Stir and set aside.<br/>
+            </div>
+            <div class="col-md-5">
+                
+            </div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-6"> 
+                #2 - In a small bowl, add yogurt, mayo, lime juice, taco seasoning, cayenne and black pepper. Stir and set aside.<br/>
+            </div>
+            <div class="col-md-5">
+                    
+            </div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-6"> 
+                    #3 - Preheat large ceramic non-stick skillet on high heat and add shrimp. Cook until pink on the bottom, flip and cook until no longer gray.<br/>
+            </div>
+            <div class="col-md-5">
+                
+            </div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-6"> 
+                    #4 - In a large bowl, add slaw, cilantro, salt and almost all of the sauce, reserving some for drizzling on tacos. Stir gently.
+                    <br/>
+            </div>
+            <div class="col-md-5">
+                <img src="../Images/Shrmip-Taco-Step2.jpeg" width="50%" />
+            </div>
+        </div>
+        <div class="row"> <!--Repeat for each step-->
+            <div class="col-md-1"></div>
+            <div class="col-md-6"> 
+                #5 - To assemble tacos, warm tortillas in a cast iron skillet on high heat for 10 seconds per side and pressing on with spatula. 
+                <br/>
+                Fill each tortilla with 3-4 shrimps, some slaw and drizzle with sauce. Serve immediately.
+                <br/>
+            </div>
+            <div class="col-md-5">
+                
+            </div>
+        </div>
+        <script>
+            $('[w3-include-html]').each(function(){
+               var $this = $(this);
+               $this.load($this.attr('w3-include-html')); 
+            });
+        </script>
+    </body>
+</html>
